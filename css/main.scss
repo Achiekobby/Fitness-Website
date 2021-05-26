@@ -188,5 +188,71 @@ section.features {
         }
     }
 }
-
 //FEATURES SECTION STYLING ENDS HERE
+
+//TESTIMONIALS SECTION STYLING STARTS HERE
+section.testimonials{
+    padding: 100px 0;
+
+    .middle{
+        margin-top: -30px;
+        margin-bottom: -30px;
+    }
+
+    .header{
+        margin-bottom: 50px;
+        color: #333;
+
+        h1{
+            color: #240b36;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        p{
+            line-height: 1.5em;
+        }
+    }
+
+    .col-md-4{
+        position: relative;
+        padding: 10px 30px;
+
+        img{
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px rgba($color: #000000, $alpha: 0.2);
+            border: 2px solid #FFF;
+            top: 0;
+            left: 1;
+       
+        }
+        .review{
+            font-size: 1em;
+            color: #333;
+            padding: 10px 10px 10px 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px 1px rgba($color: #000000, $alpha: 0.2);
+            margin-left: 2em;
+
+            I{
+              
+                text-align: center;
+                font-size: 1.2rem;
+                color: #240b36;
+               margin-top: 10px;
+            }
+
+            span{
+                color: #240b36;
+                font-weight: 600;
+            }
+        }
+    }
+}
+//TESTIMONIALS SECTION STYLING ENDS HERE
+
+//SUBSCRIBE SECTION STYLING STARTS HERE
+
+//SUBSCRIBE SECTION STYLING ENDS HERE

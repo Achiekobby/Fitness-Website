@@ -140,4 +140,56 @@ section.features .col-md-6 .feature-box .feature-right h4 {
 section.features .col-md-6 .feature-box .feature-right p {
   padding-left: 15px;
   text-align: left;
+}
+
+section.testimonials {
+  padding: 100px 0;
+}
+section.testimonials .middle {
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+section.testimonials .header {
+  margin-bottom: 50px;
+  color: #333;
+}
+section.testimonials .header h1 {
+  color: #240b36;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+section.testimonials .header p {
+  line-height: 1.5em;
+}
+section.testimonials .col-md-4 {
+  position: relative;
+  padding: 10px 30px;
+}
+section.testimonials .col-md-4 img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border: 2px solid #FFF;
+  top: 0;
+  left: 1;
+}
+section.testimonials .col-md-4 .review {
+  font-size: 1em;
+  color: #333;
+  padding: 10px 10px 10px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+  margin-left: 2em;
+}
+section.testimonials .col-md-4 .review I {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #240b36;
+  margin-top: 10px;
+}
+section.testimonials .col-md-4 .review span {
+  color: #240b36;
+  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */
