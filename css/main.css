@@ -202,6 +202,7 @@ section.subscribe .subscribe-container {
   background: #240b36;
   position: relative;
   box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+  margin-bottom: -160px;
 }
 section.subscribe .subscribe-container h3,
 section.subscribe .subscribe-container p {
@@ -237,4 +238,42 @@ section.subscribe .subscribe-container .input-group .input-group-append .input-g
 }
 section.subscribe .subscribe-container .input-group .input-group-append .input-group-text .secondary-btn:focus {
   box-shadow: none;
+}
+
+section.footer {
+  margin-top: 80px;
+  padding: 100px;
+  background: #EFEFEF;
+  color: #240b36;
+}
+section.footer .col-md-3 .footer-logo {
+  width: 150px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+section.footer .col-md-3 h1 {
+  font-size: 1.5em;
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+section.footer .col-md-3 p {
+  font-size: 0.9em;
+  text-align: left;
+}
+section.footer .col-md-3 p .city {
+  margin-left: 37px;
+}
+section.footer .col-md-3 p i {
+  padding-right: 20px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+section.footer hr {
+  margin-top: 10px;
+}
+section.footer .copyright {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: -80px;
 }/*# sourceMappingURL=main.css.map */
