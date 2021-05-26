@@ -52,85 +52,141 @@ section.header {
         }
     }
 }
+
 // BANNER SECTION STYLING ENDS HERE
 
 //WELCOME SECTION STYLING STARTS HERE
-section.welcome-section{
+section.welcome-section {
 
-    .welcome{
+    .welcome {
         padding: 50px 100px;
         margin-top: -140px;
         background: #FFF;
-        box-shadow:0 0 20px 7px rgba($color: #000000, $alpha: 0.2);
+        box-shadow: 0 0 20px 7px rgba($color: #000000, $alpha: 0.2);
 
-        h1{
+        h1 {
             color: #333;
         }
 
-        p{
+        p {
             line-height: 1.5em;
             color: #333;
         }
 
-        .welcome-btn{
+        .welcome-btn {
             margin-top: 10px;
             padding: .8em 2.5em;
             background: linear-gradient(45deg, #c31432, #240b36);
             color: #FFF;
             border: none;
-            box-shadow:0 0 5px 2px rgba($color: #000000, $alpha: 0.2);
+            box-shadow: 0 0 5px 2px rgba($color: #000000, $alpha: 0.2);
             border-radius: .5em;
             font-size: 1.2em;
             transition: 1s;
 
-            &:hover{
+            &:hover {
                 transform: translateY(-5px);
-                background: linear-gradient(45deg,#240b36 ,#c31432);
+                background: linear-gradient(45deg, #240b36, #c31432);
             }
         }
     }
 }
+
 //WELCOME SECTION STYLING ENDS HERE
 
 //ABOUT SECTION STYLING STARTS HERE
-section.about-us{
+section.about-us {
     padding: 100px 0;
 
 
-    .col-md-6{
+    .col-md-6 {
         padding: 20px 10px;
     }
-    h3{
+
+    h3 {
         margin: 20px auto;
         color: #333;
     }
-    p{
+
+    p {
         line-height: 1.5em;
-        color:#333 ;
+        color: #333;
     }
 }
+
 //ABOUT SECTION STYLING ENDS HERE
 
 //SERVICES SECTION STYLING STARTS HERE
-section.services{
+section.services {
     background: #EFEFEF;
     padding: 80px 0;
 
-    .col-md-4{
+    .col-md-4 {
         padding: 20px;
 
-        h4{
+        h4 {
             padding: 5px;
         }
 
-        img{ 
+        img {
             width: 50px;
         }
 
-        p{
+        p {
             padding: 5px;
             text-align: justify;
         }
     }
 }
-//SERVICES SECTION STYLING ENDS HER
+
+//SERVICES SECTION STYLING ENDS HERE
+
+//FEATURES SECTION STYLING STARTS HERE
+section.features {
+    padding: 100px 0;
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+        url(../images/feature-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFF;
+
+    .col-md-6 {
+        padding: 20px;
+
+        .feature-box {
+            height: 120px;
+
+            .feature-left {
+                height: 120px;
+                width: 20%;
+                float: left;
+
+                i {
+                    padding-top: 13px;
+                    font-size: 3em;
+                    color: gold;
+                }
+            }
+
+            .feature-right {
+                height: 120px;
+                width: 80%;
+                float: left;
+
+                h4 {
+                    padding-top: 10px;
+                    padding-left: 15px;
+                    text-align: left;
+                }
+
+                p {
+                    padding-left: 15px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+//FEATURES SECTION STYLING ENDS HERE
