@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section.header {
+  background: url(../images/banner.jpg);
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+}
+section.header .navbar-brand img {
+  width: 150px;
+  margin-left: 1.5em;
+}
+section.header .navbar-toggler {
+  border: none !important;
+  color: #FFF;
+  margin-right: 1.5em;
+  outline: none !important;
+  transition: 0.5s;
+}
+section.header .navbar-toggler:hover {
+  transform: translateY(-5px);
+}
+section.header .navbar-toggler .fa-bars {
+  font-size: 1.3em;
+}
+section.header .navbar-nav {
+  margin-right: 1.5em;
+}
+section.header .navbar-nav .nav-item {
+  transition: 0.5s;
+}
+section.header .navbar-nav .nav-item:hover {
+  transform: translateY(-5px);
+  font-weight: 700;
+}
+section.header .navbar-nav .nav-item .nav-link {
+  float: right;
+  color: #FFF !important;
+}
+
+section.welcome-section .welcome {
+  padding: 50px 100px;
+  margin-top: -140px;
+  background: #FFF;
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+}
+section.welcome-section .welcome h1 {
+  color: #333;
+}
+section.welcome-section .welcome p {
+  line-height: 1.5em;
+  color: #333;
+}
+section.welcome-section .welcome .welcome-btn {
+  margin-top: 10px;
+  padding: 0.8em 2.5em;
+  background: linear-gradient(45deg, #c31432, #240b36);
+  color: #FFF;
+  border: none;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5em;
+  font-size: 1.2em;
+  transition: 1s;
+}
+section.welcome-section .welcome .welcome-btn:hover {
+  transform: translateY(-5px);
+  background: linear-gradient(45deg, #240b36, #c31432);
+}
+
+section.about-us {
+  padding: 100px 0;
+}
+section.about-us .col-md-6 {
+  padding: 20px 10px;
+}
+section.about-us h3 {
+  margin: 20px auto;
+  color: #333;
+}
+section.about-us p {
+  line-height: 1.5em;
+  color: #333;
+}
+
+section.services {
+  background: #EFEFEF;
+  padding: 80px 0;
+}
+section.services .col-md-4 {
+  padding: 20px;
+}
+section.services .col-md-4 h4 {
+  padding: 5px;
+}
+section.services .col-md-4 img {
+  width: 50px;
+}
+section.services .col-md-4 p {
+  padding: 5px;
+  text-align: justify;
+}/*# sourceMappingURL=main.css.map */
