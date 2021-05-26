@@ -192,4 +192,49 @@ section.testimonials .col-md-4 .review I {
 section.testimonials .col-md-4 .review span {
   color: #240b36;
   font-weight: 600;
+}
+
+section.subscribe {
+  padding: 20px 0;
+}
+section.subscribe .subscribe-container {
+  padding: 50px 20px;
+  background: #240b36;
+  position: relative;
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+}
+section.subscribe .subscribe-container h3,
+section.subscribe .subscribe-container p {
+  color: #FFF;
+}
+section.subscribe .subscribe-container .input-group {
+  color: #FFF;
+  border-radius: 30px;
+  background: #FFF;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 5px;
+}
+section.subscribe .subscribe-container .input-group .form-control {
+  border: none;
+  background: transparent;
+}
+section.subscribe .subscribe-container .input-group .form-control:focus {
+  box-shadow: none;
+  background: transparent;
+}
+section.subscribe .subscribe-container .input-group .input-group-append {
+  background-image: linear-gradient(to right, #41295a, #9b6dbd);
+  border-radius: 30px;
+}
+section.subscribe .subscribe-container .input-group .input-group-append .input-group-text {
+  background: transparent;
+  border: none;
+  color: #FFF;
+}
+section.subscribe .subscribe-container .input-group .input-group-append .input-group-text .secondary-btn {
+  transition: 0.5s;
+}
+section.subscribe .subscribe-container .input-group .input-group-append .input-group-text .secondary-btn:focus {
+  box-shadow: none;
 }/*# sourceMappingURL=main.css.map */

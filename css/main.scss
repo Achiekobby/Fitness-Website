@@ -188,36 +188,38 @@ section.features {
         }
     }
 }
+
 //FEATURES SECTION STYLING ENDS HERE
 
 //TESTIMONIALS SECTION STYLING STARTS HERE
-section.testimonials{
+section.testimonials {
     padding: 100px 0;
 
-    .middle{
+    .middle {
         margin-top: -30px;
         margin-bottom: -30px;
     }
 
-    .header{
+    .header {
         margin-bottom: 50px;
         color: #333;
 
-        h1{
+        h1 {
             color: #240b36;
             font-size: 2em;
             margin-bottom: 10px;
         }
-        p{
+
+        p {
             line-height: 1.5em;
         }
     }
 
-    .col-md-4{
+    .col-md-4 {
         position: relative;
         padding: 10px 30px;
 
-        img{
+        img {
             position: absolute;
             width: 60px;
             height: 60px;
@@ -226,9 +228,10 @@ section.testimonials{
             border: 2px solid #FFF;
             top: 0;
             left: 1;
-       
+
         }
-        .review{
+
+        .review {
             font-size: 1em;
             color: #333;
             padding: 10px 10px 10px 30px;
@@ -236,23 +239,82 @@ section.testimonials{
             box-shadow: 0 0 20px 1px rgba($color: #000000, $alpha: 0.2);
             margin-left: 2em;
 
-            I{
-              
+            I {
+
                 text-align: center;
                 font-size: 1.2rem;
                 color: #240b36;
-               margin-top: 10px;
+                margin-top: 10px;
             }
 
-            span{
+            span {
                 color: #240b36;
                 font-weight: 600;
             }
         }
     }
 }
+
 //TESTIMONIALS SECTION STYLING ENDS HERE
 
 //SUBSCRIBE SECTION STYLING STARTS HERE
+section.subscribe {
+    padding: 20px 0;
+
+    .subscribe-container {
+        padding: 50px 20px;
+        background: #240b36;
+        position: relative;
+        box-shadow: 0 0 020px 7px rgba($color: #000000, $alpha: 0.2);
+
+        h3,
+        p {
+            color: #FFF;
+        }
+
+        .input-group {
+            color: #FFF;
+            border-radius: 30px;
+            background: #FFF;
+            max-width: 500px;
+            margin: 10px auto;
+            padding: 5px;
+
+            .form-control {
+                border: none;
+                background: transparent;
+
+                &:focus {
+                    box-shadow: none;
+                    background: transparent;
+                }
+            }
+
+            .input-group-append {
+                background-image: linear-gradient(to right, #41295a, #9b6dbd);
+                border-radius: 30px;
+
+                .input-group-text {
+                    background: transparent;
+                    border: none;
+                    color: #FFF;
+
+                    .secondary-btn {
+                        transition: .5s;
+
+                        &:focus {
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 //SUBSCRIBE SECTION STYLING ENDS HERE
+
+
+//FOOTER SECTION STYLING STARTS HERE
+
+//FOOTER SECTION STYLING ENDS HERE
